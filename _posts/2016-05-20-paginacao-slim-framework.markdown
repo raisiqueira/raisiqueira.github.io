@@ -5,7 +5,7 @@ date:   2016-05-20 19:12:13 -0300
 categories: PHP
 ---
 
-##Introdução##
+## Introdução
 
 A um certo tempo estava quabrando cabeça sobre como fazer uma paginação no Slim Framework em conjunto com o Illuminate database, dando uma vasculhada na internet, achei uma lib bem interessante do Jason Grimes — [PHP Paginator](https://github.com/jasongrimes/php-paginator).  Dando uma rápida lida, vi que seria fácil implementar, então sem mais delongas, vamos ao código! :D
 
@@ -108,13 +108,14 @@ Seguindo com o código, fazemos uma contagem na **linha 16** de quantos shows ex
 
 Da **linha 19** à **linha 22**, fazemos uma verificação da quantidade de páginas a serem exibidas, e se o atributo da página passado na url é maior do que o retorno da quantidade da páginas, se for maior, nossa aplicação continua.
 
-##Começando o Show!##
+## Começando o Show!
 
 Se você já for familiarizado com o Eloquent, vai entender fácil o código seguinte, onde faço uma consulta na tabela shows, pesquisando pelo ID do artista e ordenando por ordem crescente. Linhas 24 à 27.
-`
+```
 $slugArt = $artista->art_slug;
 	// Paginação Eloquent ORM + Slim
-	$shows_do_artista = $capsule->table('shows')->where('show_artista', '=', $artista->art_id)->orderBy('show_criado_em','desc')->skip($ajustes->artista_por_pag * ($page - 1))->take($ajustes->artista_por_pag)->get();`
+	$shows_do_artista = $capsule->table('shows')->where('show_artista', '=', $artista->art_id)->orderBy('show_criado_em','desc')->skip($ajustes->artista_por_pag * ($page - 1))->take($ajustes->artista_por_pag)->get();
+```
 
 Seguindo, se der uma rápida olhada na documentação do Jason Grimer, verá como a implementação é simples, com o slim Vai ficar mais ou menos assim (linhas 29 à 44):
 
