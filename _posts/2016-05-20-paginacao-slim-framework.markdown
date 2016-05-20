@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-05-11 19:21:13 -0300
-categories: jekyll update
+title:  "Paginação com Slim Framework e Eloquent"
+date:   2016-05-20 19:12:13 -0300
+categories: PHP
 ---
 
 ##Introdução##
