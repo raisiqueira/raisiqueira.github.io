@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  
+<html>
+
   {% include head.html %}
 
-  <body>
-    {% include page-header.html %}
+  <!-- {% if page.section == "blog" %}
+    {% assign body_class = "blog" %}
+  {% endif %} -->
 
-    <section class="main-content">
-      
-      {{ content }}
+  <body class="section-{{page.section}}">
 
-      {% include page-footer.html %}
+  {% include navigation.html %}
 
-    </section>
+  {{ content }}
+
+
+  {% unless page.no_footer_nav %}
+    {% include nav_footer.html %}
+  {% endunless %}
+
+  {% include footer.html %}
 
   </body>
 </html>

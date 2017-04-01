@@ -1,23 +1,33 @@
 ---
 layout: default
+section: portfolio
+is_top_level: true
+browser_title: "Raí Siqueira: Desenvolvedor Web"
+title: "Dan Tilden"
+subtitle: >
+          Desenvolvedor web.
+top_bar_color: "#159957"
+top_bar_color2: "#155799"
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="cards central-col">
+  <h2>Projetos em Destaque</h2>
+	{% for project in site.data.projects %}
+	<a id="project{{forloop.index}}" class="card project-card" href="{{ project.url }}">
+		<div class="thumb" style="background-image: url({{ project.banner_img }})"></div>
+		<div class="desc">
+			<h3>{{ project.name }}</h3>
+			<p>
+			{{ project.desc }}
+			</p>
+			<!--<ul class="tags">
+			{% for tag in project.tags %}
+				<li>{{tag}}</li>
+			{% endfor %}
+			</ul>-->
+		</div>
+	</a>
+	{% endfor %}
 
 </div>

@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Paginação com Slim Framework e Eloquent"
+desc: "Paginação simples com Slim Framework e o ORM Eloquent"
 date:   2016-05-20 19:12:13 -0300
+subtitle: "20 de Maio, 2016"
 categories: PHP
+banner_photo: "/images/posts/slim-logo.png"
 ---
 
 ## Introdução

@@ -1,15 +1,29 @@
 ---
 layout: page
-title: About
+browser_title: "Raí Siqueira: Sobre"
+title: "About Me"
 permalink: /about/
+is_top_level: true
+section: about
+banner_photo: "/images/lizard.jpg"
+top_bar_color: " #159957"
+top_bar_color2: "#155799"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+{% include img.html
+  url="/images/about_me.jpg"
+  alt="Photo of me"
+  caption="Esse sou eu, no Startup Weekend Petrolina - 2016"
+%}
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<div class="buttons">
+  <a href="" id="email_link">
+    <i class="material-icons">email</i>
+    Contato via email
+  </a>
+</div>
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+
+## Hi there!
+
+Sou desenvolvedor Web desde 2008, com experiência em WordPress desde 2010. Atuo também como Analista de TI, tenho conhecimentos em Windows Server, Linux, Rede, Automação Comercial, SEO, SEM, E-Commerce, e um pouco de tudo que envolva um computador. Da uma olhadinha no meu **<a href="https://www.linkedin.com/in/raisiqueira/" title="linkedin">LinkedIn</a>** :D
