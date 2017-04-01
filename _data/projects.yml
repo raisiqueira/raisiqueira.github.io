@@ -2,14 +2,16 @@
   desc: >
          Desenvolvimento do portal da Prefeitura de Custódia - PE, seguindo os requisitos do governo do estado referente a Transparência."
   banner_img: "images/banners/prefeitura.png"
+  tags:
+    - Portal
+    - WordPress
   url: "/projects/prefeitura-custodia"
 
 - name: "FIS.edu.br"
   desc: >
-        Desenvolvimento do portal da Faculdade FIS, com ajuda da TAGi senvolvimentos.
+        Desenvolvimento do portal da Faculdade FIS, com ajuda da TAGi Desenvolvimentos.
   banner_img: "images/banners/fis.png"
   tags:
-    - Prototyping
-    - Interaction Design
-    - Wearable
+    - Portal
+    - WordPress
   url: "/projects/fisedu"
