@@ -48,14 +48,21 @@
     - CSS3
   url: "/projects/guilherme-bellone"
 
+- name: "Landing page Baixe Shows"
+  desc: >
+        Desenvolvimento da landing page do site Baixe Shows.
+  banner_img: "images/projects/baixeshows/land-baixeshows.png"
+  tags:
+    - CSS3
+  url: "/projects/baixe-shows"
+
 - name: "Landing page Rário Forrozão"
   desc: >
         Desenvolvimento da landing page da Rádio Forrozão.
   banner_img: "images/projects/radioforrozao/Landing.png"
   tags:
     - CSS3
-    - WordPress
-  url: "/projects/gabriel-cds"
+  url: "/projects/radio-forrozao"
 
 - name: "Gabriel CDs"
   desc: >
