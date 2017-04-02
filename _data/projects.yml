@@ -16,42 +16,52 @@
     - WordPress
   url: "/projects/fisedu"
 
-  - name: "Gislaine Matos"
-    banner_img: "images/projects/gismatos/home-gislainematos1.png"
+- name: "Gislaine Matos"
   desc: >
-        Desenvolvimento do site da cantora Gislaine Matos."
+        Desenvolvimento do site da cantora Gislaine Matos.
+  banner_img: "images/projects/gismatos/home-gislainematos1.png"
   tags:
     - WordPress
   url: "/projects/gislaine-matos"
 
-  - name: "Galã do Brega"
-    banner_img: "images/projects/galabrega/home-galabrega.png"
+- name: "Galã do Brega"
   desc: >
-        Desenvolvimento do site do cantor Galã do Brega."
+        Desenvolvimento do site do cantor Galã do Brega.
+  banner_img: "images/projects/galabrega/home-galabrega.png"
   tags:
     - WordPress
   url: "/projects/gala-do-brega"
 
- - name: "Landing page Gustavo Moura & Rafael"
-    banner_img: "images/projects/gmourarafael/land-gmourarafael.png"
+- name: "Landing page Gustavo Moura & Rafael"
   desc: >
-        Desenvolvimento da langind page da dupla Gustavo Moura & Rafael."
+        Desenvolvimento da landing page da dupla Gustavo Moura & Rafael.
+  banner_img: "images/projects/gmourarafael/land-gmourarafael.png"
   tags:
     - CSS3
   url: "/projects/gustavo-rafael"
 
- - name: "Landing page Gustavo & Bellone"
-    banner_img: "images/projects/gustavobellone/land-gustavobellone.png"
+- name: "Landing page Guilherme & Bellone"
   desc: >
-        Desenvolvimento da langind page da dupla Gustavo & Bellone."
+        Desenvolvimento da landing page da dupla Guilherme & Bellone.
+  banner_img: "images/projects/gustavobellone/land-gustavobellone.png"
   tags:
     - CSS3
-  url: "/projects/gustavo-bellone"
+  url: "/projects/guilherme-bellone"
 
- - name: "Landing page Gustavo & Bellone"
-    banner_img: "images/projects/gustavobellone/land-gustavobellone.png"
+- name: "Landing page Rário Forrozão"
   desc: >
-        Desenvolvimento da langind page da dupla Gustavo & Bellone."
+        Desenvolvimento da landing page da Rádio Forrozão.
+  banner_img: "images/projects/radioforrozao/Landing.png"
   tags:
     - CSS3
-  url: "/projects/gustavo-bellone"
+    - WordPress
+  url: "/projects/gabriel-cds"
+
+- name: "Gabriel CDs"
+  desc: >
+        Desenvolvimento do site gabrielcds.net.
+  banner_img: "images/projects/gcds/site-gcds.jpg"
+  tags:
+    - CSS3
+    - WordPress
+  url: "/projects/gabriel-cds"
