@@ -15,3 +15,43 @@
     - Portal
     - WordPress
   url: "/projects/fisedu"
+
+  - name: "Gislaine Matos"
+    banner_img: "images/projects/gismatos/home-gislainematos1.png"
+  desc: >
+        Desenvolvimento do site da cantora Gislaine Matos."
+  tags:
+    - WordPress
+  url: "/projects/gislaine-matos"
+
+  - name: "Galã do Brega"
+    banner_img: "images/projects/galabrega/home-galabrega.png"
+  desc: >
+        Desenvolvimento do site do cantor Galã do Brega."
+  tags:
+    - WordPress
+  url: "/projects/gala-do-brega"
+
+ - name: "Landing page Gustavo Moura & Rafael"
+    banner_img: "images/projects/gmourarafael/land-gmourarafael.png"
+  desc: >
+        Desenvolvimento da langind page da dupla Gustavo Moura & Rafael."
+  tags:
+    - CSS3
+  url: "/projects/gustavo-rafael"
+
+ - name: "Landing page Gustavo & Bellone"
+    banner_img: "images/projects/gustavobellone/land-gustavobellone.png"
+  desc: >
+        Desenvolvimento da langind page da dupla Gustavo & Bellone."
+  tags:
+    - CSS3
+  url: "/projects/gustavo-bellone"
+
+ - name: "Landing page Gustavo & Bellone"
+    banner_img: "images/projects/gustavobellone/land-gustavobellone.png"
+  desc: >
+        Desenvolvimento da langind page da dupla Gustavo & Bellone."
+  tags:
+    - CSS3
+  url: "/projects/gustavo-bellone"
