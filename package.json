@@ -1,0 +1,27 @@
+{
+  "name": "raisiqueira.github.io",
+  "version": "1.0.0",
+  "description": "Project my portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-cache": "^0.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raisiqueira/raisiqueira.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raisiqueira/raisiqueira.github.io/issues"
+  },
+  "homepage": "https://github.com/raisiqueira/raisiqueira.github.io#readme"
+}
