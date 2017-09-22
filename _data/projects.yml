@@ -1,3 +1,13 @@
+- name: "Laboratorio IMEC"
+  desc: >
+         Desenvolvimento do site do Laboratorio IMEC usando novas tecnologias web, como VueJS para o Front-end."
+  banner_img: "images/projects/IMEC/imec001.png"
+  tags:
+    - WordPress
+    - NodeJS
+    - VueJS
+  url: "/projects/prefeitura-custodia"
+
 - name: "Prefeitura de Custódia"
   desc: >
          Desenvolvimento do portal da Prefeitura de Custódia - PE, seguindo os requisitos do governo do estado referente a Transparência."
